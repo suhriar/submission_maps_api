@@ -2,10 +2,11 @@ package v1
 
 import (
 	"encoding/json"
-	"github.com/gorilla/mux"
-	v1 "github.com/michaelwp/golang-gmap-places/controllers/v1"
-	"github.com/michaelwp/golang-gmap-places/errHandler"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	v1 "github.com/suhriar/submission_maps_api/controllers/v1"
+	"github.com/suhriar/submission_maps_api/errHandler"
 )
 
 func RouterProfile(r *mux.Router) {

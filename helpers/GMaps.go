@@ -3,11 +3,12 @@ package helpers
 import (
 	"context"
 	"fmt"
-	"github.com/michaelwp/golang-gmap-places/db/v1"
-	"github.com/michaelwp/golang-gmap-places/errHandler"
-	"github.com/michaelwp/golang-gmap-places/models"
-	"googlemaps.github.io/maps"
 	"os"
+
+	"github.com/suhriar/submission_maps_api/db/v1"
+	"github.com/suhriar/submission_maps_api/errHandler"
+	"github.com/suhriar/submission_maps_api/models"
+	"googlemaps.github.io/maps"
 )
 
 var loc maps.LatLng

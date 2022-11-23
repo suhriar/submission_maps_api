@@ -3,14 +3,15 @@ package v1
 import (
 	"context"
 	"encoding/json"
-	"github.com/michaelwp/golang-gmap-places/configs"
-	"github.com/michaelwp/golang-gmap-places/db/v1"
-	"github.com/michaelwp/golang-gmap-places/errHandler"
-	"github.com/michaelwp/golang-gmap-places/helpers"
-	"github.com/michaelwp/golang-gmap-places/models"
-	"go.mongodb.org/mongo-driver/bson"
 	"net/http"
 	"strings"
+
+	"github.com/suhriar/submission_maps_api/configs"
+	"github.com/suhriar/submission_maps_api/db/v1"
+	"github.com/suhriar/submission_maps_api/errHandler"
+	"github.com/suhriar/submission_maps_api/helpers"
+	"github.com/suhriar/submission_maps_api/models"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 // call mongodb

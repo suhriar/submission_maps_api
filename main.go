@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelwp/golang-gmap-places/server/v1"
 	"log"
 	"os"
+
+	v1 "github.com/michaelwp/golang-gmap-places/server/v1"
 )
+
 /*
-	Created 12 September 2020, by Michael W. Putong
 	Google Map - Service
 */
 

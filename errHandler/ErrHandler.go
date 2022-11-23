@@ -2,9 +2,10 @@ package errHandler
 
 import (
 	"encoding/json"
-	"github.com/michaelwp/golang-gmap-places/models"
 	"log"
 	"net/http"
+
+	"github.com/suhriar/submission_maps_api/models"
 )
 
 func ErrHandler(s string, e error) {
