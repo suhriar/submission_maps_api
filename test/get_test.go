@@ -3,24 +3,18 @@ package test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/michaelwp/golang-gmap-places/configs"
-	"github.com/michaelwp/golang-gmap-places/models"
-	v1 "github.com/michaelwp/golang-gmap-places/server/v1"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
 	"testing"
+
+	"github.com/suhriar/submission_maps_api/configs"
+	"github.com/suhriar/submission_maps_api/models"
+	v1 "github.com/suhriar/submission_maps_api/server/v1"
 )
 
 func TestGetPlaces(t *testing.T) {
-	// Set env
-	err := configs.SetEnv()
-	// if error
-	if err != nil {
-		t.Fatalf("Error set rnv %v", err)
-	}
-
 	// define the model
 	var respModel models.ResultPlaces
 

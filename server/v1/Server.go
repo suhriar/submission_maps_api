@@ -2,11 +2,12 @@ package v1
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/michaelwp/golang-gmap-places/middlewares"
-	"github.com/michaelwp/golang-gmap-places/routers"
 	"net/http"
 	"time"
+
+	"github.com/gorilla/mux"
+	"github.com/suhriar/submission_maps_api/middlewares"
+	"github.com/suhriar/submission_maps_api/routers"
 )
 
 type Host string
