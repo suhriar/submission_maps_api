@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	v1 "github.com/michaelwp/golang-gmap-places/server/v1"
+	v1 "github.com/suhriar/submission_maps_api/server/v1"
 )
 
 /*
