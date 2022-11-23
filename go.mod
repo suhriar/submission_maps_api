@@ -1,4 +1,4 @@
-module github.com/michaelwp/golang-gmap-places
+module github.com/suhriar/submission_maps_api
 
 go 1.14
 
