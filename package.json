@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelwp/golang-gmap-places.git"
+    "url": "git+https://github.com/suhriar/submission_maps_api.git"
   },
   "keywords": ["golang","gmap","google map"],
   "author": "Michael Putong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michaelwp/golang-gmap-places/issues"
+    "url": "https://github.com/suhriar/submission_maps_api/issues"
   },
-  "homepage": "https://github.com/michaelwp/golang-gmap-places#readme",
+  "homepage": "https://github.com/suhriar/submission_maps_api#readme",
   "pre-push": [
     "test"
   ]
